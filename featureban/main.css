@@ -1,0 +1,44 @@
+P {
+    padding-left: 20px;
+  }
+
+h1 {
+    font-size: 24px;
+    font-family: Andale Mono, monospace;
+}
+
+table {
+    border: 3px solid black;
+}
+
+td {
+    vertical-align: text-top;
+    text-align: center;
+    width: 20px;
+}
+
+th,td {
+    border-bottom: 1px solid black;
+}
+
+tr:hover {background-color:#eeeeee;}
+
+input[type=text] {
+    border: 2px solid black;
+    border-radius: 2px;
+    background-color: #ccddcc;
+  }
+
+
+
+input[type=text]:focus {
+    background-color: orange;
+  }
+
+input[type=button], input[type=submit] {
+    background-color: #333333;
+    border: none;
+    color: white;
+    text-decoration: none;
+    margin: 4px 2px;
+  }

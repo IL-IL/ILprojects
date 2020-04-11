@@ -1,0 +1,46 @@
+<html>
+<head>
+    <link rel="stylesheet" href="main.css">
+    <title>Daily ToDo Generator</title>
+</head>
+<body>
+
+<div>
+    <input id="input" type ="text">
+    <br>
+    <input type ="button" onclick="genDoAdd()" value = "Как делаем?">
+    <input type ="button" onclick="genWhatAdd()" value = "Что делаем?">
+    <input type ="button" onclick="genForWhomAdd()" value = "Добавим заказчика">
+    <input type ="button" onclick="genDateAdd()" value = "Добавим эстимейты">
+    <hr>
+
+</div>    
+<!-- Отображение результатов -->
+<div >
+    <p><b>Ваш план на сегодня:</b></p>
+    <p id="todayPlan"></p>
+</div>
+
+<div >
+    <p><b>Ваш план на вчера: </b></p>
+    <p id="yesterdayPlan"></p>
+</div>
+<br>
+<br>
+
+<input type ="button" onclick="generateToDo()" value = "Запланировать день">
+
+<br>
+
+<div>
+    <!--  <input type ="button" onclick="saveMyDay()" value = "Сохранить план"> -->
+    <input type ="button" onclick="loadMyDay()" value = "Что было вчера">
+</div>
+<br>
+
+<input type ="button" onclick="generateToDoList()" value = "Тест листа">
+
+
+<script src="script.js"></script>
+</body>    
+</html>

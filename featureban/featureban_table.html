@@ -1,0 +1,73 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="main.css">
+    <title>Featureban card toss test</title>
+</head>
+
+<body>
+    
+    <h1>Featureban card toss test</h1>
+    <br>
+    <input type ="text" class="player">
+    <input type ="button" onclick="addPlayer()" value = "Добавить участника">
+    <br>
+    <br>
+    <br>
+    <table>
+        <tr>
+            <th>Имена игроков</th>
+            <th>День 1</th>
+            <th>День 2</th>
+            <th>День 3</th>
+        </tr>
+        <tr>
+            <td>
+                <ul class="playerList"></ul>
+            </td>
+            <td>
+                <ul class="cardList1"></ul>
+            </td>
+            <td>
+                <ul class="cardList2"></ul>
+            </td>
+            <td>
+                <ul class="cardList3"></ul>
+            </td>
+        </tr>   
+    </table>
+    <br>
+    <input type ="button" onclick="generateCard()" value='Сгенерировать ход'>
+    <input type ="button" onclick="clearCard()" value='Сброс карт'>
+
+    <br>
+
+
+    <input type ="button" onclick="addTablePlayer()" value='Создать участника'>
+    
+    
+    <div>
+    <table>
+    <tr>
+        <th>Names</th>
+        <th>Day 1</th>
+        <th>Day 2</th>
+        <th>Day 3</th>
+        <th>Day 4</th>
+        <th>Day 5</th>
+        <th>Day 6</th>
+        <th>Day 7</th>
+        <th>Day 8</th>
+        <th>Day 9</th>
+        <th>Day 10</th>
+    </tr>
+    <tr class="tableBlock">
+
+    </tr>        
+    </table>    
+    </div>
+
+
+    <script src="script2table.js"></script>
+</body>
+</html>
